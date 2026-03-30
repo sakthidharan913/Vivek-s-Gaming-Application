@@ -10,7 +10,7 @@ pipeline {
     }
     
     stages {
-        stage('SCM CHECKOUT1') {
+        stage('SCM CHECKOUT3') {
             steps {
                git branch: 'main', url: 'https://github.com/VM2322/Vivek-s-Gaming-Application'
             }
